@@ -1,0 +1,12 @@
+C:\Users\Adlez\Desktop\RunnerProjectTest\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\Adlez\Desktop\RunnerProjectTest\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\Adlez\Desktop\RunnerProjectTest\Temp\UnityVS_bin\Debug\Assembly-UnityScript-firstpass.dll
+C:\Users\Adlez\Desktop\RunnerProjectTest\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\Adlez\Desktop\RunnerProjectTest\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\Adlez\Desktop\RunnerProjectTest\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\Adlez\Desktop\RunnerProjectTest\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\Adlez\Desktop\RunnerProjectTest\obj\Debug\UnityVS.RunnerProjectTest.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Adlez\Desktop\RunnerProjectTest\obj\Debug\Assembly-CSharp.dll
+C:\Users\Adlez\Desktop\RunnerProjectTest\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Adlez\Desktop\RunnerProjectTest\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Adlez\Desktop\VGs Workspace\Unity\RunnerProjectTest\obj\Debug\UnityVS.RunnerProjectTest.CSharp.csprojResolveAssemblyReference.cache

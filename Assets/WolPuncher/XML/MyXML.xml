@@ -1,0 +1,14 @@
+<ShipTypes>
+  <Ship1 HP="20" X="0.0" Y="0.0" Damage ="1" Armour="2" Name="Javelin">
+    <WeaponSlot>
+      <Laser1 />
+    </WeaponSlot>
+    <WeaponSlot>
+      <Tic-TacShooter />
+    </WeaponSlot>
+    <WeaponSlot>
+    </WeaponSlot>
+    <ItemSlot>
+    </ItemSlot>
+  </Ship1>
+</ShipTypes>

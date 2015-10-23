@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 07fccdb372766f84eba84cca7a3ed761
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MayorEmotionSpriteSheet_6
+    21300002: MayorEmotionSpriteSheet_11
+    21300004: MayorEmotionSpriteSheet_12
+    21300006: MayorEmotionSpriteSheet_13
+    21300008: MayorEmotionSpriteSheet_14
+    21300010: MayorEmotionSpriteSheet_15
+    21300012: MayorEmotionSpriteSheet_16
+    21300014: MayorEmotionSpriteSheet_16
+    21300016: MayorEmotionSpriteSheet_15
+    21300018: MayorEmotionSpriteSheet_9
+    21300020: MayorEmotionSpriteSheet_10
+    21300022: MayorEmotionSpriteSheet_11
+    21300024: MayorEmotionSpriteSheet_12
+    21300026: MayorEmotionSpriteSheet_13
+    21300028: MayorEmotionSpriteSheet_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MayorEmotionSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MayorEmotionSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MayorEmotionSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 50
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MayorEmotionSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 50
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MayorEmotionSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 50
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MayorEmotionSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MayorEmotionSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 50
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MayorEmotionSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 100
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MayorEmotionSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 100
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MayorEmotionSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 100
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MayorEmotionSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 100
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MayorEmotionSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MayorEmotionSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MayorEmotionSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MayorEmotionSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
