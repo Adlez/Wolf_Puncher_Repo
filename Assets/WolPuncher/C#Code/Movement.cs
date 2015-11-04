@@ -184,20 +184,20 @@ public class Movement : MonoBehaviour
 		}
 	}
 
-	void OnCollisionStay2D(Collider2D other)
+    void OnCollisionStay2D(Collision2D other)
 	{
 		Debug.Log("OnTriggerStay");
 	}
 
-	void OnCollisionExit2D(Collider2D other)
+    void OnCollisionExit2D(Collision2D other)
 	{
 		Debug.Log("OnTriggerExit");
 	}
 
-	void OnCollisionEnter2D(Collider2D other)
-	{
-		Debug.Log("OnTriggerEnter");
-	}
+    //void OnCollisionEnter2D(Collision2D other)
+	//{
+	//	Debug.Log("OnTriggerEnter");
+	//}
 
 	public void GameOver()
 	{
