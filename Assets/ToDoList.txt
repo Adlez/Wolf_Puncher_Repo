@@ -1,0 +1,16 @@
+
+Need to Do:
+--------------------------
+Fix The Mayor's Jump; Have her collide with the ground, have gravity bring her back down, don't rise forever
+Fist velocity should be assigned values according to the pixel location of where the screen is pressed (in front of the mayor),
+	this way The Mayor can punch in every direction in front of her
+Enemy Spawn needs to work again
+Enemy movement probably needs to be fixed
+
+
+	
+Wednesday November 4 2015
+--------------------------
+did:
+Removed a lot of useless scripts
+Tiny bit of organization
