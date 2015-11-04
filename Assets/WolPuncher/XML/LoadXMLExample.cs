@@ -26,7 +26,7 @@ public class LoadXMLExample : MonoBehaviour
 		XmlAttribute temp2 = temp[0];
 
 		int hp = int.Parse(shipOne.Attributes["HP"].Value); //gets HP from the ship in the xml file
-		float pos = int.Parse(shipOne.Attributes["Pos"].Value);
+		//float pos = int.Parse(shipOne.Attributes["Pos"].Value);
 		int damage = int.Parse(shipOne.Attributes["Damage"].Value);
 		string name = (shipOne.Attributes["Name"].Value);
 
