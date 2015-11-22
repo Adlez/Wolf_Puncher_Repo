@@ -78,8 +78,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameController.cs" />
-    <Compile Include="Assets\Scripts\MayorMovement.cs" />
-    <Compile Include="Assets\Scripts\MayorStats.cs" />
+    <Compile Include="Assets\Scripts\Mayor\MayorController.cs" />
+    <Compile Include="Assets\Scripts\Mayor\MayorMovement.cs" />
+    <Compile Include="Assets\Scripts\Mayor\MayorStats.cs" />
     <Compile Include="Assets\WolPuncher\C#Code\AudioScript.cs" />
     <Compile Include="Assets\WolPuncher\C#Code\BGScroller.cs" />
     <Compile Include="Assets\WolPuncher\C#Code\BunnyBehaviour.cs" />

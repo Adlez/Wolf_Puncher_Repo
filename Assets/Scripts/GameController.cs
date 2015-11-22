@@ -3,8 +3,26 @@ using System.Collections;
 
 public class GameController : MonoBehaviour 
 {
+    private bool mGameOver;
+    private bool mRestart;
 
-	// Use this for initialization
+    public GUIText restartText;
+    public GUIText gameOverText;
+    public GUIText wolvesKilledText;
+
+    public void GameOver()
+    {
+        gameOverText.text = "Game Over";
+        mGameOver = true;
+        restartText.text = "Press 'R' to restart.";
+        mRestart = true;
+    }
+
+    public void WolfKilled()
+    {
+        //++mWolvesKilled;
+    }
+
 	void Start () 
     {
 	

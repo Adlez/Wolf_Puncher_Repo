@@ -3,10 +3,10 @@ using System.Collections;
 
 public class MayorStats : MonoBehaviour 
 {
-    public float mPunchRate;
-    public float Irritation;
-    public float Boredom;
-    public int Sadness;
+    public float m_PunchRate;
+    public float m_Irritation;
+    public float m_Boredom;
+    public int m_Sadness;
     public int m_WolvesKilled;
 
     public float m_TimeToNextPunch;
