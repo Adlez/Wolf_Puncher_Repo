@@ -3,8 +3,10 @@ using System.Collections;
 
 public class Fist : MonoBehaviour 
 {
+    public GameObject m_Mayor;
+    public GameObject m_GameController;
 	public WolfBehaviour mWolfBehaviour;
-	public Movement mMovement;
+	//public Movement mMovement;
 	public Animator mBoredAnimator;
 
 	private int mTempKilled;
@@ -25,12 +27,16 @@ public class Fist : MonoBehaviour
 	}
 	void OnCollisionEnter2D(Collision2D collision)
 	{
+        var mayorStats = m_Mayor.GetComponent<MayorStats>();
 		if (collision.collider.tag == "Wolf")
 		{
-			mMovement.GetComponent<Movement>().WolfKilled();
+            m_GameController.GetComponent<GameController>().WolfKilled();
+
 			mBoredAnimator.SetFloat("Boredom", 0.0f);
-			Movement.mWolvesKilled += 1;
-			Movement.tempBored = 0.0f;
+
+            mayorStats.m_WolvesKilled += 1;
+            mayorStats.m_tempBored = 0.0f;
+
 			mWolfBehaviour.GetComponent<WolfBehaviour>().KillWolf();
 			Instantiate(BloodExplosion, transform.position, transform.rotation);
 			//Destroy(collider.gameObject);

@@ -23,7 +23,7 @@ public class MayorController : MonoBehaviour
         if (Input.GetButton("Fire1") && Time.time > mStats.m_TimeToNextPunch)
         {
             mStats.m_TimeToNextPunch = Time.time + mStats.m_PunchRate;
-            Instantiate(m_Fist, m_FistSpawn.position, m_MayorTansform.rotation);
+            Instantiate(m_Fist, m_FistSpawn.position, m_FistSpawn.rotation);
         }
 	}
 }
