@@ -17,10 +17,11 @@ public class PuncherScript : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+        Vector3 rot = new Vector3(0, 90, 0);
 		if (Input.GetButton("Fire1") && Time.time > mNextPunch)
 		{
 			mNextPunch = Time.time + mPunchRate;
-            Instantiate(mFist, mFistSpawn.position, Quaternion.identity);
+            Instantiate(mFist, mFistSpawn.position, Quaternion.Euler(rot));
 
 		}
 	}
