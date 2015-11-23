@@ -125,10 +125,6 @@ Prefab:
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 11417442, guid: 2611224cd091c994aa38c10cc8499881, type: 2}
-      propertyPath: m_Animator
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11417442, guid: 2611224cd091c994aa38c10cc8499881, type: 2}
       propertyPath: m_IritAnimator
       value: 
       objectReference: {fileID: 1420896982}
@@ -140,30 +136,6 @@ Prefab:
       propertyPath: m_BoredAnimator
       value: 
       objectReference: {fileID: 1328547527}
-    - target: {fileID: 480096, guid: 2611224cd091c994aa38c10cc8499881, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 480096, guid: 2611224cd091c994aa38c10cc8499881, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 480096, guid: 2611224cd091c994aa38c10cc8499881, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: .70710659
-      objectReference: {fileID: 0}
-    - target: {fileID: 480096, guid: 2611224cd091c994aa38c10cc8499881, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: -.707106948
-      objectReference: {fileID: 0}
-    - target: {fileID: 480096, guid: 2611224cd091c994aa38c10cc8499881, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -1.20000005
-      objectReference: {fileID: 0}
-    - target: {fileID: 480096, guid: 2611224cd091c994aa38c10cc8499881, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2611224cd091c994aa38c10cc8499881, type: 2}
   m_IsPrefabParent: 0
