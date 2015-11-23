@@ -20,7 +20,7 @@ public class PuncherScript : MonoBehaviour
 		if (Input.GetButton("Fire1") && Time.time > mNextPunch)
 		{
 			mNextPunch = Time.time + mPunchRate;
-			Instantiate(mFist, mFistSpawn.position, mFistSpawn.rotation);
+            Instantiate(mFist, mFistSpawn.position, Quaternion.identity);
 
 		}
 	}
