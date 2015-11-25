@@ -73,7 +73,7 @@ public class Objectpooler : MonoBehaviour
 		{
 			if(mEntries[i].mPrefab.name == obj.name)
 			{
-				obj.SetActive(false);
+				//obj.SetActive(false);
 				obj.transform.parent = containerObject_.transform;
 				mPool[i].Add(obj);
 				return;
@@ -106,7 +106,7 @@ public class Objectpooler : MonoBehaviour
 					GameObject pooledObject = mPool[i][0];
 					mPool[i].RemoveAt(0);
 					pooledObject.transform.parent = null;
-					pooledObject.SetActive(true);
+					//pooledObject.SetActive(true);
 					return pooledObject;
 
 				}

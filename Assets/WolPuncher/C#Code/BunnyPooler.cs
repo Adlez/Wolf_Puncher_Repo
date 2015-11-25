@@ -24,7 +24,7 @@ public class BunnyPooler : MonoBehaviour
 		for(int i = 0; i < pooledAmount; ++i)
 		{
 			GameObject bunny = (GameObject)Instantiate(bunnyPool);
-			bunny.SetActive(false);
+			//bunny.SetActive(false);
 			pooledBunnies.Add(bunny);
 		}
 	}

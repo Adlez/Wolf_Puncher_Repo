@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class WolfSpawner : MonoBehaviour 
 {
+    public GameObject spawner;
 	public float minSpawnTime = 1.5f;
 	public float maxSpawnTime = 10f;
 
@@ -20,14 +21,15 @@ public class WolfSpawner : MonoBehaviour
 
 	void SpawnObj()
 	{
-		Vector3 ObjPos = new Vector3(-11.87537f, 1.408689f, 0.3471181f);
+		//Vector3 ObjPos = new Vector3(-11.87537f, 1.408689f, 0.3471181f);
+        Vector3 ObjPos = spawner.transform.position;
 		GameObject obj = Objectpooler.current.GetPooledObject();
 
 		if (obj == null) return;
 
 		obj.transform.position = ObjPos;
 		obj.transform.rotation = transform.rotation;
-		obj.SetActive(true);
+		//obj.SetActive(true);
 		++WolvesOnScreen;
 	}
 	

@@ -33,7 +33,7 @@ public class BunnyBehaviour : MonoBehaviour
 
 	public void KillBunny()
 	{
-		gameObject.SetActive(false);
+		//gameObject.SetActive(false);
 	}
 
 	void OnCollisionEnter2D(Collision2D collision)

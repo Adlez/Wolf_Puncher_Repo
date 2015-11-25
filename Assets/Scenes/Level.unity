@@ -85,6 +85,33 @@ NavMeshSettings:
     cellSize: .166666657
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &92184956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 92184957}
+  m_Layer: 0
+  m_Name: WolfSpawnLoc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &92184957
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 92184956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.95000005, y: -1.23000002, z: -.723481178}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
 --- !u!1001 &196415387
 Prefab:
   m_ObjectHideFlags: 0
@@ -139,6 +166,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2611224cd091c994aa38c10cc8499881, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &203754904 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+  m_PrefabInternal: {fileID: 1054179132}
 --- !u!1 &327810579
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,6 +478,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 575694899}
   m_RootOrder: 2
+--- !u!4 &934873591 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+  m_PrefabInternal: {fileID: 1955301832}
 --- !u!4 &1024957185 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
@@ -517,11 +552,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 9.5422554
+      value: -4.80999994
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 5.26580143
+      value: -1.38999999
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
       propertyPath: m_LocalPosition.z
@@ -555,6 +590,14 @@ Prefab:
       propertyPath: maxSpawnTime
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+      propertyPath: spawner
+      value: 
+      objectReference: {fileID: 203754904}
+    - target: {fileID: 11400002, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+      propertyPath: m_Spawner
+      value: 
+      objectReference: {fileID: 92184956}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
   m_IsPrefabParent: 0
@@ -694,6 +737,7 @@ Transform:
   m_Children:
   - {fileID: 563038116}
   - {fileID: 1024957185}
+  - {fileID: 934873591}
   m_Father: {fileID: 0}
   m_RootOrder: 6
 --- !u!1001 &1199243158
@@ -950,6 +994,76 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3cd907ac92810f142acf5e9059f5fd9f, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1903853669 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+  m_PrefabInternal: {fileID: 1955301832}
+--- !u!1001 &1955301832
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1146957331}
+    m_Modifications:
+    - target: {fileID: 400000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+      propertyPath: minSpawnTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+      propertyPath: maxSpawnTime
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+      propertyPath: m_Name
+      value: PoolOfWolves
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+      propertyPath: bunnyPool
+      value: 
+      objectReference: {fileID: 100000, guid: 785097024dbfbba42ad233aca783f147, type: 2}
+    - target: {fileID: 11400002, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+      propertyPath: spawner
+      value: 
+      objectReference: {fileID: 1903853669}
+    - target: {fileID: 11400002, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+      propertyPath: m_Spawner
+      value: 
+      objectReference: {fileID: 92184956}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: be325bf0996f6954db8ae5b85cbc25fc, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1972830846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,6 +1161,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1146957331}
     m_Modifications:
+    - target: {fileID: 11400002, guid: e33a2f7c3e5884d4cb71ab0aaf2073b2, type: 2}
+      propertyPath: mEntries.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e33a2f7c3e5884d4cb71ab0aaf2073b2, type: 2}
       propertyPath: m_LocalPosition.x
       value: 9.76323891
@@ -1082,6 +1200,30 @@ Prefab:
     - target: {fileID: 100000, guid: e33a2f7c3e5884d4cb71ab0aaf2073b2, type: 2}
       propertyPath: m_Name
       value: WolfPool
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: e33a2f7c3e5884d4cb71ab0aaf2073b2, type: 2}
+      propertyPath: mEntries.Array.data[0].mPrefab
+      value: 
+      objectReference: {fileID: 100000, guid: 785097024dbfbba42ad233aca783f147, type: 2}
+    - target: {fileID: 11400002, guid: e33a2f7c3e5884d4cb71ab0aaf2073b2, type: 2}
+      propertyPath: mEntries.Array.data[0].mCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: e33a2f7c3e5884d4cb71ab0aaf2073b2, type: 2}
+      propertyPath: pooledAmount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e33a2f7c3e5884d4cb71ab0aaf2073b2, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: e33a2f7c3e5884d4cb71ab0aaf2073b2, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e33a2f7c3e5884d4cb71ab0aaf2073b2, type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e33a2f7c3e5884d4cb71ab0aaf2073b2, type: 2}

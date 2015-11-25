@@ -35,7 +35,7 @@ public class WolfBehaviour : MonoBehaviour
 
 	public void KillWolf()
 	{
-		gameObject.SetActive(false);
+		//gameObject.SetActive(false);
 	}
 	
 	void OnCollisionEnter2D(Collision2D collision)
@@ -59,10 +59,10 @@ public class WolfBehaviour : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		GetComponent<Rigidbody2D>().AddForce(-(Vector2.right * mMaxSpeed));
+		//GetComponent<Rigidbody2D>().AddForce(-(Vector2.right * mMaxSpeed));
 		if(gameObject.GetComponent<Rigidbody2D>().position.y < -5)
 		{
-			Invoke("KillWolf", 0.1f);
+			//Invoke("KillWolf", 0.1f);
 		}
 	}
 
