@@ -108,3 +108,10 @@ Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
 *.dll
 *.log
 Wolf_Puncher_Repo.v12.suo
+Library/assetDatabase3
+*.dwlt
+Library/expandedItems
+*.asset
+Library/metadata/00/00000000000000004000000000000000
+*.info
+Library/metadata/00/0000000000000000c000000000000000
