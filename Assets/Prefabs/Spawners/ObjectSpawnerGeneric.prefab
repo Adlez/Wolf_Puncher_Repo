@@ -56,7 +56,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SpawnLocation: {fileID: 0}
-  m_ThisSpawner: {fileID: 0}
+  m_ThisSpawner: {fileID: 168170}
   minSpawnTime: .5
   maxSpawnTime: 2
   m_SpawnXY: {x: 0, y: 0}

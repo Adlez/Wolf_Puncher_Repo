@@ -56,6 +56,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e244c65ee8eed8a4fbb357d51f7048f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_EnemyContollerObj: {fileID: 0}
   m_EnemyControl: {fileID: 0}
   mSpawnPos:
   - {fileID: 106304, guid: 98cd2bbd59f65d5429e8a812ec0434b7, type: 2}

@@ -40,8 +40,8 @@ public class WolfBehaviour : MonoBehaviour
 		//gameObject.SetActive(false);
         //GameObject.Destroy(transform.root.gameObject);
         //Destroy(this.gameObject);
-        DestroyObject(gameObject);
-        Destroy(m_Wolves[index]);
+        //DestroyObject(gameObject);
+        //Destroy(m_Wolves[index]);
 	}
 	
 	void OnCollisionEnter2D(Collision2D collision)

@@ -57,7 +57,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Bullies: []
-  m_EnemyController: {fileID: 0}
+  m_EnemyController: {fileID: 123182}
   m_UniqueAttackHolder: {fileID: 0}
   m_StateMachine: {fileID: 0}
   m_Player: {fileID: 0}

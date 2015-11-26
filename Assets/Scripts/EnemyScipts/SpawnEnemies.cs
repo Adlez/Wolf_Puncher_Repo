@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class SpawnEnemies : MonoBehaviour 
 {
+    public GameObject m_EnemyContollerObj;
 	public GameObject m_EnemyControl;
 	public GameObject[] mSpawnPos; //List of possible spawn locaations
 	public GameObject[] mEnemiesToSpawn; //List of possible enemies to spawn
@@ -18,7 +19,7 @@ public class SpawnEnemies : MonoBehaviour
 
 	void Start () 
 	{
-		//m_EnemyControl = GameObject.FindGameObjectWithTag("EnemyController"); 
+		m_EnemyControl = GameObject.FindGameObjectWithTag("EnemyController"); 
 		//mSpawnPos[0] = GameObject.FindGameObjectWithTag("ESRL");
 		//mSpawnPos[1] = GameObject.FindGameObjectWithTag("ESRM");
 		//mSpawnPos[2] = GameObject.FindGameObjectWithTag("ESRF");
@@ -32,11 +33,17 @@ public class SpawnEnemies : MonoBehaviour
 	
 	public void SpawnEnemyFunc(int type)
 	{
-        GameObject newEnemy = Objectpooler.Instance.GetObjectForType(mEnemiesToSpawn[type].name, true);//new enemy is created
+        if (m_EnemyContollerObj == null)
+        {
+            m_EnemyContollerObj = GameObject.FindGameObjectWithTag("EnemyController"); 
+        }
+        //var Blue = Objectpooler.Instance;//.GetObjectForType(mEnemiesToSpawn[type].name, true);
+        //GameObject newEnemy = Objectpooler.Instance.GetObjectForType(mEnemiesToSpawn[type].name, true);//new enemy is created
+        GameObject newEnemy = mEnemiesToSpawn[type];
         newEnemy.transform.position = startPos_ + xOffSet_; //mSpawnPos[row].transform.position; //the enemy's position is assigned the position at the selected row
 
-		m_EnemyControl.GetComponent<EnemyControllerScript>().AddBullyToList(newEnemy);
-        newEnemy.GetComponent<BullyScript>().InitEnemy(startPos_ + xOffSet_, newEnemy);
+        m_EnemyContollerObj.GetComponent<EnemyControllerScript>().AddBullyToList(newEnemy);
+        newEnemy.GetComponent<EnemyScript>().InitEnemy(startPos_ + xOffSet_, newEnemy);
 
 	}
 }

@@ -17,7 +17,7 @@ GameObject:
   - 114: {fileID: 11484656}
   m_Layer: 0
   m_Name: Mayor
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_Irritation: 0
   m_Boredom: 0
   m_Sadness: 0
-  m_WolvesKilled: 0
+  m_WolvesKilled: 79
   m_TimeToNextPunch: 0
   m_tempMad: 0
   m_tempBored: 0
@@ -217,7 +217,9 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}

@@ -17,7 +17,7 @@ public class EnemyControllerScript : MonoBehaviour
 	private float tempBossTimer_;
 
 	private int enemySelector_;
-	private int rowSelector_; //the track the enemy is going to be placed on
+	//private int rowSelector_; //the track the enemy is going to be placed on
 
 	public void AddBullyToList(GameObject bully)
 	{
