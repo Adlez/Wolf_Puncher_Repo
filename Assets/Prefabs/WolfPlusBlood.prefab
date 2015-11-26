@@ -91,10 +91,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8d63e743428adb4da6f1a723b6e5db9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mVelocity: {x: -.100000001, y: 0, z: 0}
+  mVelocity: {x: .100000001, y: 0, z: 0}
   mRotation: {x: 0, y: 0, z: 0}
   mScaling: {x: 0, y: 0, z: 0}
   BloodExplosion: {fileID: 100000, guid: 3d5504f6e61fcd84197ce009ef1365f4, type: 2}
+  m_Wolves: []
   mRotSpeed: 0
   mJumpForce: 0
   mMaxSpeed: 2
@@ -1213,6 +1214,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mVelocity.x
+      value: .100000001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

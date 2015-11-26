@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &123182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 419312}
+  - 114: {fileID: 11484872}
+  - 114: {fileID: 11497944}
+  m_Layer: 0
+  m_Name: EnemyControl
+  m_TagString: EnemyController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &419312
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123182}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11484872
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afa15c0402c5b574ca48ea7179d12f7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpawner: {fileID: 166736, guid: e44d756ebe5656b49891d7d9643fd277, type: 2}
+  bossSpawner: {fileID: 0}
+  m_Bullies: []
+  m_MaxAllowableBulliesOnScreenForLevel: 5
+  m_BulliesOnScreen: 0
+--- !u!114 &11497944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1053f39b6effce44ba3977b087700922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Bullies: []
+  m_EnemyController: {fileID: 0}
+  m_UniqueAttackHolder: {fileID: 0}
+  m_StateMachine: {fileID: 0}
+  m_Player: {fileID: 0}
+  m_PlayerPos: {x: 0, y: 0}
+  PepperSpray: {fileID: 0}
+  m_BullyAnimator: {fileID: 0}
+  m_Tracks: []
+  m_TargetPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_VelocityX: 0
+  m_PlayerCurRow: 0
+  m_CurRow: 0
+  m_AbleToChangeTrack: 0
+  m_ChangeTrackTimer: 0
+  m_EnemyType: 0
+  m_AttackTimer: 0
+  m_AnimationLength: 0
+  m_HP: 0
+  m_PunchDamage: 0
+  m_KickDamage: 0
+  m_UniqueDamage: 0
+  m_AttackResetTime: 0
+  m_PunchRestTime: 0
+  m_KickRestTime: 0
+  m_UniqueRestTime: 0
+  m_AttackPunchOdds: 0
+  m_AttackKickOdds: 0
+  m_AttackUniqueOdds: 0
+  m_MaxDist: 0
+  m_DetectionDist: 0
+  m_AttackDist: 0
+  m_ReactForce: .400000006
+  m_EnemyInMotion: 0
+  m_isIdle: 0
+  m_TimerIsCounting: 0
+  m_IsDead: 0
+  m_IsABoss: 0
+  Row0Occupied: 0
+  Row1Occupied: 0
+  Row2Occupied: 0
+  m_EnemyGoingLeft: 1
+  m_RigidBody: {fileID: 0}
+  m_InitialXY: {x: 0, y: 0}
+  changeTrackCountdown: 2
+  secondaryTrackTimer: 2
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 123182}
+  m_IsPrefabParent: 1

@@ -56,7 +56,7 @@ public class MayorMovement : MonoBehaviour
 
     void OnCollisionStay2D(Collision2D other)
     {
-        Debug.Log("OnTriggerStay");
+        //Debug.Log("OnTriggerStay");
     }
 
     void OnCollisionExit2D(Collision2D other)
